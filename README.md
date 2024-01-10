@@ -5,9 +5,9 @@ TextRank算法可以用来从文本中提取关键词和摘要（重要的句子
 ## 安装
 
 方式1：
-``
+```
 $ python setup.py install --user
-``
+```
 
 方式2：
 ```
