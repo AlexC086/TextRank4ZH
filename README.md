@@ -1,3 +1,5 @@
+## Issue
+If you encounter this error <em>AttributeError: module 'networkx' has no attribute 'from_numpy_matrix'</em>. Please change the code from ``nx_graph = nx.from_numpy_matrix`` to ``nx_graph = nx.from_numpy_array`` at /Python/3.10/lib/python/site-packages/textrank4zh/util.py
 # TextRank4ZH
 
 TextRank算法可以用来从文本中提取关键词和摘要（重要的句子）。TextRank4ZH是针对中文文本的TextRank算法的python算法实现。
